@@ -9,7 +9,30 @@
   </head>
   <body>
     <section>
-      <div class="blob"></div>
+      <div class="blob">
+        <svg
+          viewBox="0 0 800 500"
+          preserveAspectRatio="none"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          width="100%"
+          id="blobSvg"
+        >
+          <g transform="translate(-44, 55)">
+            <defs>
+              <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" style="stop-color: rgb(255, 95, 109)"></stop>
+                <stop offset="100%" style="stop-color: rgb(251, 2, 128)"></stop>
+              </linearGradient>
+            </defs>
+            <path
+              class="blob"
+              d="M464,317.5Q435,385,372.5,409.5Q310,434,241.5,460.5Q173,487,134.5,424.5Q96,362,72.5,306Q49,250,71.5,193.5Q94,137,140,95.5Q186,54,256.5,33.5Q327,13,383.5,62.5Q440,112,466.5,181Q493,250,464,317.5Z"
+              fill="url(#gradient)"
+            ></path>
+          </g>
+        </svg>
+      </div>
     </section>
   </body>
 </html>

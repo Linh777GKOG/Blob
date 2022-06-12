@@ -12,3 +12,10 @@ section {
   min-height: 100vh;
   background: #250821;
 }
+
+.blob {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: #fff;
+}
